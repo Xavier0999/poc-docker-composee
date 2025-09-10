@@ -25,7 +25,7 @@ class User(db.Model):
 
 @app.route("/")
 def home():
-    return "Aplicação Flask conectada ao Postgres!"
+    return "Aplicação Flask conectada ao Postgres!!"
 
 @app.route("/create_user", methods=["POST"])
 def create_user():
